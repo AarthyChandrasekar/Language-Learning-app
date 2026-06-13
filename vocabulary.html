@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Arena</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blob blob1"></div>
+<div class="blob blob2"></div>
+    <nav>
+        <li><a href="dashboard.html" class="active">Dashboard</a></li>
+    <div class="logo">🌍 LingoSphere</div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="vocabulary.html">Vocabulary</a></li>
+        <li><a href="flashcards.html">Flashcards</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="certificate.html">Certificate</a></li>
+    </ul>
+</nav>
+
+<div class="page-container">
+
+    <h1 class="page-title">
+        🔥 Vocabulary Arena
+    </h1>
+
+    <p id="xp" class="xp-badge">
+        ⭐ XP: 0
+    </p>
+
+    <div class="word-card">
+
+        <div class="jp-word">
+
+            <h2 id="word">
+                こんにちは
+            </h2>
+
+        </div>
+
+        <p id="meaning" class="meaning">
+            Hello
+        </p>
+
+        <div class="actions">
+
+            <button onclick="speakWord()">
+                🔊 Listen
+            </button>
+
+            <button>
+                ❤️ Save
+            </button>
+
+        </div>
+
+        <button class="learn-btn">
+            ⭐ Learn (+10 XP)
+        </button>
+
+        <button id="nextWord" class="next-btn">
+            ➡ Next Word
+        </button>
+
+    </div>
+
+</div>
+
+<script src="vocabulary.js"></script>
+<footer>
+
+    <h3>🌍 LingoSphere</h3>
+
+    <p>
+        Learn Languages • Build Vocabulary • Track Progress
+    </p>
+
+    <p>
+        © 2026 All Rights Reserved
+    </p>
+
+</footer>
+
+</body>
+</html>
